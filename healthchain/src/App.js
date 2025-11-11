@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Navigate,
@@ -59,7 +59,7 @@ function App() {
   };
 
   return (
-    <Router basename="/Healthchain">
+    <Router>
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
