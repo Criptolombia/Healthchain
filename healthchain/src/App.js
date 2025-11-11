@@ -59,7 +59,7 @@ function App() {
   };
 
   return (
-    <Router basename="/healthchain">
+    <Router basename="/Healthchain">
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
